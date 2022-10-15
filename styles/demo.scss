@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+// sass variable
+
+$headerBgColor: #333;
+$mainBgColor: orange;
+$footerBgColor: black;
+
+header{
+    background-color: $headerBgColor;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+// Navbar Styling
+
+nav{
+    text-align: center;
+    background-color: $headerBgColor;
+    padding: 10px 0;
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                padding: 15px;
+                border: 1px solid beige;
+                color: aqua;
+                background-color: $footerBgColor;
+                border-radius: 10px;
+                transition: .5s;
+            }
+            a:hover{
+                background-color: aqua;
+                color: black;
+            }
+        }
+    }
+}
+
+
+main{
+    background-color: $mainBgColor;
+    height: 400px;
+    text-align: justify;
+    padding: 20px;
+}
+footer{
+    background-color: $footerBgColor;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

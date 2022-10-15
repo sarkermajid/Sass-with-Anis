@@ -3,4 +3,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: yellow;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid beige;
+  color: aqua;
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+main {
+  background-color: orange;
+  height: 400px;
+  text-align: justify;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }/*# sourceMappingURL=demo.css.map */
